@@ -162,6 +162,10 @@ img {
     }
 }
 
+.navegacion__link--blanco {
+    color: var(--blanco);
+}
+
 /* NUCLEUS */
 .nucleus {
     margin-top: 3rem;
@@ -357,3 +361,29 @@ img {
     font-weight: 700;
     text-align: right;
 }
+
+/* FOOTER */
+.footer {
+    background-color: #5a30a0;
+    padding: 3rem 0;
+}
+
+@media (min-width: 768px) {
+    .footer__grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footer__logo {
+    width: 20rem;
+    margin: 0 auto 4rem auto;
+}
+
+@media (min-width: 768px) {
+    .footer__logo {
+        margin: 0;
+    }
+}
+
